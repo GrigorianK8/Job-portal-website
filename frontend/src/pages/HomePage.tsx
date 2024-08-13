@@ -1,5 +1,3 @@
-import Footer from '../footer/Footer'
-import Header from '../header/Header'
 import Companies from '../landingPage/Companies'
 import DreamJob from '../landingPage/DreamJob'
 import JobCategory from '../landingPage/JobCategory'
@@ -9,15 +7,13 @@ import Working from '../landingPage/Working'
 
 const HomePage = () => {
   return (
-    <div className='min-h-[100vh] bg-mine-shaft-950 font-["poppins"]'>
-      <Header/>
+    <div className='min-h-[100vh] bg-mine-shaft-950 font-["poppins"]'>    
       <DreamJob/>
       <Companies/>
       <JobCategory/>
       <Working/>
       <Testimonials/>
       <Subscribe/>
-      <Footer/>
     </div>
   )
 }

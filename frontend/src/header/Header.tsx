@@ -4,7 +4,7 @@ import NavLinks from './NavLinks'
 
 
 const Header = () => {
-  return <div className='w-full bg-mine-shaft-950 px-16 h-20 text-white flex justify-between items-center'>
+  return <div className='w-full bg-mine-shaft-950 px-16 h-20 text-white flex justify-between items-center font-["poppins"]'>
     
     <div className='flex gap-2 items-center text-bright-sun-400'>
       <IconBow className='h-10 w-10' stroke={2.1}/>
